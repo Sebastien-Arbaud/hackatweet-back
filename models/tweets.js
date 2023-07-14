@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 
 const tweetSchema = mongoose.Schema({
+
     tweet: String,
+    hashtag: String,
   });
   
   const Tweet = mongoose.model('tweets', tweetSchema);
